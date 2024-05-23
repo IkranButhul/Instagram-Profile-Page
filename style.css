@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    width: 90%;
+    max-width: 600px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.username {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    justify-content: left;
+}
+
+.name {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bio a {
+    color: #0af;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.stat {
+    text-align: center;
+}
+
+.number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+    color: #888;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.profile-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.highlight {
+    text-align: center;
+}
+
+.highlight img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.posts img {
+    width: calc(33.333% - 10px);
+    height: auto;
+}
